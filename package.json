@@ -1,0 +1,22 @@
+{
+  "name": "ts-node-jest-starter",
+  "version": "0.0.1",
+  "description": "ts-node ts-jest starter",
+  "main": "index.ts",
+  "author": "me",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^22.2.2",
+    "@types/node": "^9.6.27",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.2",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  },
+  "scripts": {
+    "start": "node node_modules/ts-node/dist/bin.js ./src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  }
+}
